@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --config webpack.prod.js",
+    "build:watch": "webpack serve --open --config webpack.dev.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@webpack-cli/serve": "^1.5.2",
+    "babel-jest": "^27.2.4",
+    "jest": "^27.2.4",
+    "css-loader": "^6.3.0",
+    "style-loader": "^3.2.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3",
+    "webpack": "^5.53.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1",
+    "webpack-merge": "^5.8.0"
+  }
+}
